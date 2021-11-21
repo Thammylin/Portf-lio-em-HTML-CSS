@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.header-menu {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: 60px;
+    background-color: #d468f0;
+    
+}
+
+.header-menu nav{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.lista-menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    
+}
+
+.lista-menu li>a{
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.principal {
+    display: flex;
+    background-color: #eaeaea;
+    height: 100vh;
+}
+
+.container{
+    margin-left:auto ;
+    margin-right: auto;
+    max-width: 960px;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+
+.principal div>img {
+    border-radius: 50%;
+}
+
+.subcontainer-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.nome-completo {
+    font-size: 36px; 
+    color: #d468f0; 
+    font-weight: 700; 
+    height: 45px;
+}
+
+.profissao {
+    color:#C5C0C0;
+    height: 60px;
+}
+
+.texto-sobre {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.topico-principal {
+    font-size: 36px;
+    color: #d875f7;
+}
+
+.lista-item {
+    margin-bottom: 32px;
+}
+
+.lista-item ul>li {
+    margin-bottom: 32px;
+}
+
+.lista-titulo {
+    margin-bottom: 5px;
+    font-size:22px;
+    color:#828282;
+    font-family: 700; 
+}
+
+.lista-local {
+    font-size: 18px;
+    color: #d468f0;
+}
+
+.lista-descricao {
+    font-size: 18px;
+    margin-top: 5px;
+    line-height: 20px;
+    color: #828282;
+    font-weight: 300;
+}
+
+.article-lista {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom:100px;
+    flex-direction: column;
+}
+
+.lista-portifolio {
+    background-color: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitulo-lista {
+    font-size: 18px;
+    color: #828282;
+    font-weight: 500;
+}
+
+.footer{
+    background-color:#d468f0;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.lista-rodape li{
+    color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center; 
+}
+
+.link {
+    text-decoration: none;
+    color:#FFF;
+}
+
+.estilo-icon {
+    font-size: 32px;
+    margin-right: 10px;
+}
